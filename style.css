@@ -1,0 +1,108 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+html {
+}
+
+body {
+  background: rgb(238, 174, 179);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 179, 1) 0%,
+    rgba(180, 184, 216, 1) 44%,
+    rgba(199, 181, 218, 1) 51%,
+    rgba(183, 183, 223, 1) 66%,
+    rgba(168, 185, 227, 1) 81%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  font-family: 'Indie Flower', cursive;
+  background: url(img/burbs.gif);
+}
+
+.header {
+  background: #eeaeb3;
+  margin: 4px;
+  padding: 12px;
+  border-radius: 15em;
+  text-align: center;
+  font-size: 40px;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.restart-btn {
+  color: pink;
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.restart-btn:hover {
+  cursor: pointer;
+  background-color: purple;
+  color: black;
+}
+
+.marcador {
+  border: 6px solid plum;
+  margin: 5% auto;
+  width: 200px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.opciones {
+  justify-content: center;
+  display: flex;
+}
+.opcion {
+  font-size: 5em;
+  padding: 15px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 35em;
+}
+
+.resultado {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.userScore_span {
+  position: absolute;
+  top: auto;
+  left: -25px;
+  height: 25%;
+  width: 30%;
+  background: khaki;
+  font-size: 28px;
+  border: 1px solid hotpink;
+  border-radius: 10px;
+  padding: 3px 2px;
+}
+
+.cpuScore_span {
+  position: absolute;
+  top: auto;
+  right: -25px;
+  height: 25%;
+  width: 30%;
+  background: khaki;
+  font-size: 28px;
+  border: 1px solid hotpink;
+  border-radius: 10px;
+  padding: 3px 2px;
+}
