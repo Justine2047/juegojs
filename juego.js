@@ -33,8 +33,6 @@ function Win() {
   userScore++;
   userScore_span.innerHTML = userScore;
   cpuScore_span.innerHTML = cpuScore;
-  if (userScore >= 10) win = 'userScore';
-  alert('YOU WIN, CONGRATULATIONS!');
 }
 
 function draw() {
@@ -58,37 +56,37 @@ function getWinner(pcOption, playerOption) {
   if (pcOption === '🌚' && playerOption === '📃') {
     userScore++;
     userScore_span.innerHTML = userScore;
-    return 'Tu ganas!!';
+    return 'Gano!!⭐️';
   }
 
   if (pcOption === '📃' && playerOption === '🌚') {
     cpuScore++;
     cpuScore_span.innerHTML = cpuScore;
-    return 'Pierdo!!';
+    return 'Pierdo!! 😒';
   }
 
   if (pcOption === '🌚' && playerOption === '✂️') {
     cpuScore++;
     cpuScore_span.innerHTML = cpuScore;
-    return 'Pierdes :(';
+    return 'Pierdo!! 😒';
   }
 
   if (pcOption === '✂️' && playerOption === '🌚') {
     userScore++;
     userScore_span.innerHTML = userScore;
-    return 'Tu ganas!!';
+    return 'Gano!!⭐️';
   }
 
   if (pcOption === '✂️' && playerOption === '📃') {
     cpuScore++;
     cpuScore_span.innerHTML = cpuScore;
-    return 'Pierdes :(';
+    return 'Pierdo!!  😒';
   }
 
   if (pcOption === '📃' && playerOption === '✂️') {
     userScore++;
     userScore_span.innerHTML = userScore;
-    return 'Tu ganas!!';
+    return 'Gano!!⭐️';
   }
 }
 

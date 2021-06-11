@@ -3,8 +3,6 @@
   margin: 0;
   padding: 0;
 }
-html {
-}
 
 body {
   background: rgb(238, 174, 179);
@@ -21,13 +19,18 @@ body {
   background: url(img/burbs.gif);
 }
 
-.header {
-  background: #eeaeb3;
+header {
+  font-size: 40px;
+  width: 100%;
+  height: 60px;
+  padding: auto;
+}
+
+h2 {
   margin: 4px;
   padding: 12px;
-  border-radius: 15em;
+  border-radius: 15px;
   text-align: center;
-  font-size: 40px;
 }
 
 .btn-container {
@@ -79,6 +82,12 @@ body {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
+}
+
+.result {
+  text-align: center;
+  font-size: 50px;
+  color: blueviolet;
 }
 
 .userScore_span {
